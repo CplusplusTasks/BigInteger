@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -std=c++11 -pedantic -O3    CMakeFiles/main.dir/big_integer_testing.cpp.o CMakeFiles/main.dir/my_vector.cpp.o CMakeFiles/main.dir/big_integer.cpp.o CMakeFiles/main.dir/gtest/gtest-all.cc.o CMakeFiles/main.dir/gtest/gtest_main.cc.o  -o main -rdynamic -lgmp -lgmpxx -lpthread 

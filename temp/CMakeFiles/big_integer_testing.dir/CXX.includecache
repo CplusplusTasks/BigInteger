@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../headers/big_integer.h
+string
+-
+my_vector.h
+../headers/my_vector.h
+
+../headers/my_vector.h
+cassert
+-
+vector
+-
+
+/media/eugene/soft/copy_ubuntu/desktop/c++/BI/big_integer_testing.cpp
+iostream
+-
+algorithm
+-
+cassert
+-
+string.h
+-
+cstdlib
+-
+vector
+-
+big_integer.h
+/media/eugene/soft/copy_ubuntu/desktop/c++/BI/big_integer.h
+
